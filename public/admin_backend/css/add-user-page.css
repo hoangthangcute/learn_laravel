@@ -1,0 +1,72 @@
+.user-title{
+    text-align: center;
+}
+
+.form-info {
+    padding: 0 30% 30px 30%;
+}
+
+.form-info .input-info {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-submit-button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-info .input-submit-button:hover {
+  background-color: #45a049;
+}   
+
+.table-list-user{
+    margin: 3% 10% 0 10% ;
+    padding-bottom: 20px;
+}
+
+.table-list-user table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-list-user table, th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;    
+}
+
+.table-list-user tr:nth-child(odd){background-color: #cfe5f7}
+
+.table-list-user th {
+    background-color: rgb(83, 76, 175);
+    color: white;
+    text-align: center;
+}
+
+.table-list-user .action-btn .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+.table-list-user .action-btn{
+    text-align: center;
+}
